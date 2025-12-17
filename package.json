@@ -1,0 +1,26 @@
+{
+  "name": "g-pcsl-demo",
+  "version": "1.0.0",
+  "description": "G-PCSL Complete Demo - Zama Bounty Submission",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'No build required - single HTML file'"
+  },
+  "keywords": [
+    "zama",
+    "fhe",
+    "cbdc",
+    "demo",
+    "bounty",
+    "privacy",
+    "encryption"
+  ],
+  "author": "G-PCSL Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  }
+}
